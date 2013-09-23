@@ -10,17 +10,7 @@
 	<script type="text/javascript" src="jquery.mobile-1.1.0.min.js"></script>
     <script type="text/javascript" src="exercisetracker.js"></script>
 	<link rel="stylesheet" href="jquery.mobile-1.1.0.min.css" />
-	<script>
-		document.addEventListener("deviceready", function(){
-			alert("device Ready");
-			if(navigator.network.connection.type == Connection.NONE){
-				$("#home_network_button").text('No Internet Access')
-                .attr("data-icon", "delete")
-                .button('refresh');
-			}
-		});
-	</script>
-</head>
+	</head>
 
 <body>
 <!-- Starting the first page -->
